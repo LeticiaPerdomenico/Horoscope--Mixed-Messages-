@@ -1,0 +1,43 @@
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0.8em;
+}
+
+#button{
+	margin: 0.8em;
+}
+
+#zodiac_sign {
+	display: flex;
+	flex-direction: row;
+	gap: 1em;
+	flex-wrap: wrap;
+}
+
+#predictions{
+	font-size: 3em;
+	font-family: 'Indie Flower', cursive;
+}
+
+#showmessage{
+	font-size: 1.8em;
+	font-family: 'Caveat', cursive;
+	margin: 0.8em;
+}
+
+img{
+	width: 20%;
+	height: auto;
+	margin:1em;
+
+}
